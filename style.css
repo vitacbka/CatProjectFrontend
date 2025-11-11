@@ -1,0 +1,157 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    background: #C0C6DC;
+    margin: 0;
+}
+
+aside {
+    border-radius: 40px;
+    width: 370px;
+    background: rgba(224, 235, 254, 0.7);
+}
+
+ol {
+    padding: 0;
+    padding-left: 20px;
+}
+
+button {
+    border-radius: 16px;
+    padding: 14px 16px;
+    width: 290px;
+    height: 48px;
+    border: 1px solid #7549ea;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #1f2937;
+}
+
+.friends {
+    margin: 48px 0;
+}
+
+.followers-counter {
+    font-weight: 400;
+    font-size: 22px;
+    color: #4a5161;
+    padding-left: 16px;
+}
+
+.top-btn {
+    background: #7549ea;
+    color: #fff;
+}
+
+.bot-btn {
+    background: inherit;
+    color: #7549ea;
+}
+
+.aside-box {
+    padding: 40px;
+}
+
+.wrapper {
+    border-radius: 40px;
+    width: 1200px;
+    background: #fff;
+    margin: 27px auto;
+    display: flex;
+    padding: 13px 18px;
+    gap: 60px;
+}
+
+.interests {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.interest-item {
+    border-radius: 6px;
+    padding: 0px 8px;
+    height: 24px;
+    background: rgba(117, 73, 234, 0.2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #7549ea;
+    margin: 0;
+}
+
+.buttons-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 73px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #4a5161;
+}
+
+.bold-text {
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.info-box > p {
+    display: flex;
+    gap: 24px;
+}
+
+.infobox > p > b {
+    width: 80px;
+}
+
+li {
+    padding-left: 8px;
+    margin-bottom: 10px;
+}
+
+li::marker {
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.list-item {
+    font-weight: bold;
+}
+
+.inner-list {
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.inner-list > li {
+    font-weight: 400;
+    color: #4a5161;
+}
